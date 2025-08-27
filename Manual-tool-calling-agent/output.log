@@ -1,0 +1,22 @@
+2025-08-27 22:55:06,426 - __main__ - INFO - message: After first LLM call. AI response: content='' additional_kwargs={} response_metadata={'model': 'gpt-oss:20b', 'created_at': '2025-08-27T14:55:06.423606Z', 'done': True, 'done_reason': 'stop', 'total_duration': 1762469375, 'load_duration': 49398750, 'prompt_eval_count': 468, 'prompt_eval_duration': 264571708, 'eval_count': 60, 'eval_duration': 1447945375, 'model_name': 'gpt-oss:20b'} id='run--886d8820-4d5c-45de-93e1-a78d08c54a1d-0' tool_calls=[{'name': 'extract_video_id', 'args': {'url': 'https://www.youtube.com/watch?v=t97ipSIDEfU'}, 'id': '80c6249c-57a4-44fb-9e7b-d0e7d2f44dc7', 'type': 'tool_call'}] usage_metadata={'input_tokens': 468, 'output_tokens': 60, 'total_tokens': 528}
+
+2025-08-27 22:55:06,429 - __main__ - INFO - message: After first tool call. Tool message: [ToolMessage(content='t97ipSIDEfU', tool_call_id='80c6249c-57a4-44fb-9e7b-d0e7d2f44dc7')]
+
+2025-08-27 22:55:07,870 - __main__ - INFO - message: Supposed to call fetch transcript tool: content='' additional_kwargs={} response_metadata={'model': 'gpt-oss:20b', 'created_at': '2025-08-27T14:55:07.868272Z', 'done': True, 'done_reason': 'stop', 'total_duration': 1434745917, 'load_duration': 42518959, 'prompt_eval_count': 515, 'prompt_eval_duration': 330027166, 'eval_count': 44, 'eval_duration': 1057026709, 'model_name': 'gpt-oss:20b'} id='run--4e0f48f4-cc93-48b2-94ff-954faea057d0-0' tool_calls=[{'name': 'fetch_transcript', 'args': {'language': 'en', 'video_id': 't97ipSIDEfU'}, 'id': '5b6a90d7-cd88-4d71-a0a4-193f2ba3ce0a', 'type': 'tool_call'}] usage_metadata={'input_tokens': 515, 'output_tokens': 44, 'total_tokens': 559}
+
+2025-08-27 22:56:21,046 - __main__ - INFO - message: check summary: **The “Three Christ” experiment – a brief overview**
+
+- **Setting** – Ipsilani State Hospital, a maximum‑security psychiatric facility in the 1950s–60s.  
+- **Participants** – Three men (pseudonyms: Clyde, Joseph, Leyon) who each suffered from paranoid schizophrenia and claimed to be separate “Christ‑like” identities.  
+- **Goal** – To see whether a researcher could “play God” by reshaping the patients’ daily lives, using group meetings, letters from fabricated authority figures, and daily instructions, in order to diminish their delusions.  
+- **Method** –  
+  1. The patients were forced into a daily, structured “sitting room” routine.  
+  2. A series of letters, ostensibly from a trusted authority, were given to them to guide behavior (e.g., “go to the store”, “don’t say X”).  
+  3. The researcher (Rockich) monitored and sometimes intervened in the meetings, attempting to redirect their identities.  
+- **Outcome** – The experiment produced **no cures**.  
+  * Clyde and Joseph largely remained unchanged.  
+  * Leyon showed only more elaborate delusions and grew increasingly withdrawn.  
+- **Conclusion** – The project highlighted the **ethical limits** of “playing God” with psychiatric patients.  
+  * Rockich later admitted that he learned to abandon his own grand delusion of omnipotence.  
+  * The study remains a cautionary tale about early mental‑health research and is now seen as a historical, albeit tragic, case study.
+
